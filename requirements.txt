@@ -1,2 +1,2 @@
-django==4.2
+django>=4.2.22
 # Add other production dependencies here, pin versions for reproducibility
