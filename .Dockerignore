@@ -1,1 +1,14 @@
 db.sqlite3
+.git
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+*.sqlite3
+*.log
+*.cache
+*.DS_Store
