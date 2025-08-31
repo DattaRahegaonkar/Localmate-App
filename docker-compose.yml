@@ -1,15 +1,13 @@
 
-version: '3.8'
-
 services:
   django: 
     image: dattarahegaonkar09/django-app
     container_name: django-app
     ports:
-      - "80:8000"
+      - "8000:8000"
     networks:
       - django-app
 
 networks:
-  climate-cast:
+  django-app:
     external: true
