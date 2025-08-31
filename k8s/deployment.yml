@@ -3,6 +3,8 @@ apiVersion: apps/v1
 metadata: 
   name: django-deployment 
   namespace: django
+  labels:
+    app: django-app
 
 spec:
   replicas: 2
