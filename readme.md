@@ -64,4 +64,4 @@ kubectl get all -n django
 ```
 kubectl port-forward service/django-service 80:80 -n django --address=0.0.0.0 
 ```
-### visit ```http://localhost:80``` to see the deployment 
+### visit http://localhost:80 to see the deployment 
