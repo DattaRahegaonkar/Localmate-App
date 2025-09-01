@@ -132,5 +132,4 @@ This repository includes a Jenkins pipeline (Jenkinsfile) that automates the fol
 
 - The pipeline ensures security, quality, and deployment are automated in a single workflow.
 
-
-![Jenkins (CI-CD) Pipeline](Jenkins ( CI-CD ) Pipeline .png)
+![hello](https://github.com/DattaRahegaonkar/localmate-app/blob/1913284b08845418bfd0f5edcea93bc49d32466d/Jenkins%20(%20CI-CD%20)%20Pipeline%20.png)
