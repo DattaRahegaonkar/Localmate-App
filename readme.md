@@ -36,21 +36,32 @@ docker run -d -p 8000:8000 django-app
 kind cluster create --name django-cluster --config=config.yml
 ```
 ```
+config.yml
+
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+  - role: control-plane
+    image: kindest/node:v1.31.0
+  - role: worker
+    image: kindest/node:v1.31.0
+
+```
 kubectl get nodes
+```
+```
+kubectl apply -f namespace.yml
 ```
 ```
 kubectl apply -f deployment.yml
 ```
 ```
-kubectl get pods -n django
-```
-```
 kubectl apply -f service.yml
 ```
 ```
-kubectl get svc -n django
+kubectl get all -n django
 ```
 ```
 kubectl port-forward service/django-service 80:80 -n django --address=0.0.0.0 
 ```
-### visit localhost:80 to see the deployment 
+### visit ```http://localhost:80``` to see the deployment 
