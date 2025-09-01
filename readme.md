@@ -47,6 +47,7 @@ nodes:
     image: kindest/node:v1.31.0
 
 ```
+```
 kubectl get nodes
 ```
 ```
