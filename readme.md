@@ -124,7 +124,7 @@ This repository includes a Jenkins pipeline (Jenkinsfile) that automates the fol
 - Applies Kubernetes manifests (Deployment, Service, Ingress) to deploy the app in a local Kind cluster.
 
 
-### ✅ Notes
+### ✅ Notes 
 
 - Jenkins triggers can be automated via GitHub webhooks on push events.
 
