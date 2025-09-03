@@ -123,6 +123,9 @@ This repository includes a Jenkins pipeline (Jenkinsfile) that automates the fol
 7. :Deploy to Kubernetes (Kind Cluster) :
 - Applies Kubernetes manifests (Deployment, Service, Ingress) to deploy the app in a local Kind cluster.
 
+8. Email Notifications (emailext) :
+- Sends automated email alerts on pipeline status (success, failure, or unstable).
+- Helps the team stay informed without manually checking Jenkins.
 
 ### ✅ Notes 
 
@@ -130,6 +133,6 @@ This repository includes a Jenkins pipeline (Jenkinsfile) that automates the fol
 
 - Using ngrok can expose local Jenkins to GitHub for webhook testing.
 
-- The pipeline ensures security, quality, and deployment are automated in a single workflow.
+- The pipeline ensures security, quality, deployment, and notifications are automated in a single workflow.
 
 ![hello](https://github.com/DattaRahegaonkar/Localmate-App/blob/12656c1d7d84b5d57c5306e6a811d397a56971bc/Jenkins%20(%20CI-CD%20)%20Pipeline%20.png)
